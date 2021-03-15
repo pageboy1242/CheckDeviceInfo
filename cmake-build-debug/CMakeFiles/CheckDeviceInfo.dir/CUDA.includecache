@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/seann/Projects/CUDA/CheckDeviceInfo/main.cu
+cuda_runtime.h
+-
+stdio.h
+-
+math.h
+-
+
